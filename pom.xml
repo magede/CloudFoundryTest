@@ -28,7 +28,7 @@
                     <url>magede-test.cloudfoundry.com</url>
                     <memory>256</memory>		
 					<username>magnus.edevag@gmail.com</username>
-					<password>vu-whu-cyj</password>
+					<password></password>
                 </configuration>
             </plugin>
         </plugins>

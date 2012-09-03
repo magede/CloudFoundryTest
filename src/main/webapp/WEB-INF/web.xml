@@ -5,14 +5,18 @@
 
 	<display-name>Hello Java</display-name>
 
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+
 	<servlet>
-		<servlet-name>HelloServlet</servlet-name>
-		<servlet-class>org.cloudfoundry.samples.HelloServlet</servlet-class>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<servlet-class>se.magede.cloudfoundry.EmployeeServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>HelloServlet</servlet-name>
-		<url-pattern>/</url-pattern>
+		<servlet-name>EmployeeServlet</servlet-name>
+		<url-pattern>/GetEmployee</url-pattern>
 	</servlet-mapping>
 
 </web-app>
